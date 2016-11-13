@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'panton regular';
+    src: url('../fonts/panton_regular/panton.eot');
+    src: url('../fonts/panton_regular/panton.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/panton_regular/panton.woff') format('woff'),
+    url('../fonts/panton_regular/panton.ttf') format('truetype'),
+    url('../fonts/panton_regular/panton.svg#panton regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'panton black';
+    src: url('../fonts/panton_black/panton_black.eot');
+    src: url('../fonts/panton_black/panton_black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/panton_black/panton_black.woff') format('woff'),
+    url('../fonts/panton_black/panton_black.ttf') format('truetype'),
+    url('../fonts/panton_black/panton_black.svg#panton black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'panton bold';
+    src: url('../fonts/panton_bold/panton-bold.eot');
+    src: url('../fonts/panton_bold/panton-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/panton_bold/panton-bold.woff') format('woff'),
+    url('../fonts/panton_bold/panton-bold.ttf') format('truetype'),
+    url('../fonts/panton_bold/panton-bold.svg#panton bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    background: url("../images/bg.png") repeat;
+    font-family: "panton bold", sans-serif;
+    font-size: 16px;
+    color: #6291d7;
+    font-weight:400;
+    min-width: 320px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size:36px;
+    font-family:"panton black", sans-serif;;
+}
+h1 span {
+    color:#2e3192
+}
+section {
+    position: relative;
+}
+#header {
+    background: url("../images/main.png") center no-repeat;
+    background-size:cover;
+    height: 100%;
+    max-width: 1920px;
+    min-width:320px;
+    max-height: 980px;
+}
+.section-table  {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.section-row {
+    display: table-row;
+    text-align: left;
+}
+.section-cell {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    margin:0 auto;
+
+}
+.section-left {
+    display: inline-block;
+
+}
+.design {
+    max-width: 612px;
+    float: right;
+    margin-left: 0;
+    margin-right: 6%;
+    margin-bottom: 5%;
+}
+.main {
+    float:left;
+    max-width: 690px;
+    margin-left: 15%;
+
+
+}
+
+.tooltip-inner {
+    white-space:pre;
+    max-width:none;
+}
+
+
+/*-----forms----*/
+.form-main {
+    max-width: 530px;
+    background: url("../images/main.png") center no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+.form-control {
+    border: none;
+    background: transparent;
+}
+.form {
+    padding:10px;
+}
+.form-group {
+    background: url("../images/bl4_inp.png") no-repeat;
+    background-size: 100% 500%;
+    background-position: center;
+}
+.btn, .btn-success, .btn, .btn-success, .btn:hover, .btn-success:active:focus, .btn-success:active:hover, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    background-color: transparent;
+    border:none;
+    text-transform: uppercase;
+    font-family: "panton regular", sans-serif;
+    font-size: 14px;
+
+}
+.button {
+    background: url("../images/bl4_btn.png") center no-repeat;
+    background-size:cover;
+    height: 66px;
+    width:184px;
+    padding-top: 20px;
+    padding-left: 15px;
+    position: absolute;
+    right: 0;
+}
+
+::-webkit-input-placeholder {color:#6a95d7; }
+::-moz-placeholder          {color:#6a95d7; }
+:-moz-placeholder           {color:#6a95d7; }
+:-ms-input-placeholder      {color:#6a95d7;}
+
+
+/* Large Devices, Wide Screens*/
+@media only screen and (max-width : 1920px) {
+
+}
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops*/
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets*/
+@media only screen and (max-width : 768px) {
+	
+}
+@media only screen and (max-width : 600px) {
+
+}
+
+/* Extra Small Devices, Phones*/
+@media only screen and (max-width : 480px) {
+
+}
+
