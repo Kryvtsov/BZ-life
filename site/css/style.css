@@ -54,7 +54,7 @@ section {
 }
 #header {
     background: url("../images/main.png") center no-repeat;
-    background-size:cover;
+    background-size:contain;
     height: 100%;
     max-width: 1920px;
     min-width:320px;
@@ -74,7 +74,6 @@ section {
     text-align: left;
     vertical-align: middle;
     margin:0 auto;
-
 }
 .section-left {
     display: inline-block;
@@ -89,10 +88,8 @@ section {
 }
 .main {
     float:left;
-    max-width: 690px;
+    max-width: 702px;
     margin-left: 15%;
-
-
 }
 
 .tooltip-inner {
@@ -119,6 +116,7 @@ section {
     background: url("../images/bl4_inp.png") no-repeat;
     background-size: 100% 500%;
     background-position: center;
+    margin-bottom: 0;
 }
 .btn, .btn-success, .btn, .btn-success, .btn:hover, .btn-success:active:focus, .btn-success:active:hover, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     background-color: transparent;
@@ -146,28 +144,167 @@ section {
 
 
 /* Large Devices, Wide Screens*/
-@media only screen and (max-width : 1920px) {
-
+@media only screen and (max-width : 1680px) {
+    .main {
+    margin-left: 10%;
+    }
+}
+@media only screen and (max-width : 1560px) {
+    .design {
+    max-width: 450px;
+    }
+    .main {
+    margin-bottom: 10%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (max-width : 1380px) {
+    .design {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+    .main {
+    max-width: 600px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    .form {
+        width: 70%;
+    }
 }
 @media only screen and (max-width : 1200px) {
+    .design {
+    max-width: 400px;
+    }
+    .main {
+    max-width: 550px;
+    margin-left: 5%;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    .form-main {
+    max-width: 300px;
+    }
+    .form {
+    padding: 0;
+    }
+    
+}
+@media only screen and (max-width : 1020px) {
+    .design {
+    max-width: 350px;
+    }
+    .main {
+    max-width: 450px;
+    }
+    h1 {
+    font-size: 20px;
+    }
+    .form-main {
+    max-width: 200px;
+    }
+    .button {
+    background-size: contain;
+    padding:6px;
+    height: auto;
+    width: auto;
+    }
+    .btn, .btn-success, .btn, .btn-success, .btn:hover, .btn-success:active:focus, .btn-success:active:hover, .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    font-size: 8px;
+    }
 
 }
-
 /* Medium Devices, Desktops*/
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 920px) {
+    p {
+    font-size: 14px;
+    }
+    
+    .design {
+    max-width: 300px;
+    }
+    .main {
+    max-width: 400px;
+    }
+    h1 {
+    font-size: 18px;
+    }
+    .form-main {
+    max-width: 150px;
+    }
+    .form-control {
+    width: auto;
+    }
+    
 }
 
 /* Small Devices, Tablets*/
 @media only screen and (max-width : 768px) {
-	
+	.design {
+    max-width: 250px;
+    }
+    .main {
+    max-width: 300px;
+    }
+    h1 {
+    font-size: 16px;
+    }
+    p {
+    font-size: 10px;
+    }
+    .form-main {
+    max-width: 150px;
+    }
+    .form-control {
+    font-size: 12px;
+    }
+    
 }
 @media only screen and (max-width : 600px) {
-
+    .design {
+    max-width: 200px;
+    }
+    .main {
+    max-width: 200px;
+    }
+    h1 {
+    font-size: 14px;
+    }
+    p {
+    font-size: 8px;
+    }
+    .form-control {
+    font-size: 10px;
+    }
 }
 
 /* Extra Small Devices, Phones*/
 @media only screen and (max-width : 480px) {
-
+    .design {
+    display: none;
+    }
+    .main {
+    margin-left: 30%;
+    }
+    .form-main {
+    max-width: 150px;
+    }
+     h1 {
+    font-size: 10px;
+    }
+    p {
+    font-size: 6px;
+    }
+    .form-control {
+    font-size: 8px;
+    }
+    #header {
+    background: none;
+    }
 }
 
